@@ -2,14 +2,9 @@
   "expo": {
     "name": "bible-acf-2021",
     "slug": "bible-acf-2021",
-    "version": "1.0.0",
+    "version": "2.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -23,7 +18,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7042395532979448~6321357429"
+      },
+      "package": "com.irlan_senne2021.bibleacf2021"
     },
     "web": {
       "favicon": "./assets/favicon.png"
